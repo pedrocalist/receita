@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="Stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body background="imagens/fundo1.jpg">
+    <header>Cozinhando Comigo</header>
+    <hr>
+    <main>
+        <nav>
+            <a href="index.html">Home</a> //
+            <a href="receita.html">Receita</a> //
+            <a href="video.html">Video</a> //
+            <a href="contato.html">Contato</a>
+        </nav>
+        <hr>
+        <br>
+        <h2>Fale Conosco</h2>
+        <br>
+        <hr>
+        <div>
+            <section>
+                <fieldset>
+                    <legend>Insira seus dados abaixo:</legend>
+                    <label>Nome: </label>
+                    <input type="text" name="nome" id="nome" size="100" autofocus="autofocus" required="required" placeholder="Digite seu nome" />
+                    <br/><br/>
+                    <label>E-mail:</label>
+                    <input type="email" name="uso_email" id="uso_email" size="50" placeholder="digite seu email" readonly="readonly" />
+                    <br/><br/>
+                    <label>Telefone:</label>
+                    <input type="telefone" name="uso_telefone" id="uso_telefone" size="50" placeholder="digite o seu telefone e receba alertas das novidades" readonly="readonly" />
+                    <br/><br/>
+                    <label> Sobre o Site: </label>
+                    <br/>
+                    <br>
+                    <input type="radio" name="Sobre o site" id="Gostei" value="G" /> Gostei
+                    <input type="radio" name="Sobre o site" id="Não Gostei" value="N" /> Não Gostei
+                    <input type="radio" name="Sobre o site" id="Dá pra melhorar" value="D" /> Dá pra melhorar
+                    <br/><br/>
+                </fieldset>
+                <br/><br/>
+                <fieldset>
+                    <legend> Oque gostaria de ver mais no nosso site</legend>
+                    <input type="checkbox" name="Oque gostaria de ver mais no nosso site" id="Receitas Doces" value="Receitas Doces" /> Receitas Doces &emsp;&emsp;
+                    <input type="checkbox" name="Oque gostaria de ver mais no nosso site" id="Receitas Salgadas" value="Receitas Salgadas" /> Receitas Salgadas &emsp;&emsp;
+                </fieldset>
+                <br/><br/>
+                <fieldset>
+                    <legend>Entre as receitas abaixo, qual gostaria de ver em nosso site</legend>
+                    Receitas Doce:
+                    <select name="like" id="like">
+                        <option value="SAGU DE UVA">SAGU DE UVA</option>
+                        <option value="PAVÊ DE BOLACHA SIMPLES">PAVÊ DE BOLACHA SIMPLES</option>
+                        <option value="PAVÊ DE MARACUJÁ">PAVÊ DE MARACUJÁ</option>
+                        <option value="TORTA DE LEITE NINHO">TORTA DE LEITE NINHO</option>
+                    </select>
+                    <br/><br/> Receitas Salgadas:
+                    <select name="like2" id="like2">
+                        <optgroup label="Peixe">
+                            <option value="Peixe assado">Peixe assado</option>
+                            <option value="Peixe Cozido">Peixe cozido</option>
+                        </optgroup>
+                        <optgroup label="Com carne moida">
+                            <option value="Escondidinho de carne moída">Escondidinho de carne moída</option>
+                            <option value="Macarrão com carne moida">Macarrão com carne moida</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <br/><br/>
+                <fieldset>
+                    <legend> Deixe sua sugestão de receita.</legend>
+                    <br/>
+                    <textarea rows="30" cols="70" placeholder="Digite aqui uma receita que adoraria ver em nosso site:"></textarea>
+                </fieldset>
+                <br/><br/>
+                <input type="submit" value="Salvar" /> &nbsp;&nbsp;
+                <button type="button" onclick="alert('Obrigado pela visita')">
+                    <img src="imagens/1242064481.png" width="50px" height="50px" />
+                </button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <ins>Nome: Pedro Henrique Calisto de Lima</ins> <br>
+        <ins>RGM: 29652189</ins> <br>
+        <ins>Curso: Ciência da Computação</ins> <br>
+    </footer>
+</body>
+
+</html>
